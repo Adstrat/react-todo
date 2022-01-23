@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tasks > span {
+  margin-left: 10px;
+}
+
+.tasks > span:hover {
+  cursor: pointer;
+}
