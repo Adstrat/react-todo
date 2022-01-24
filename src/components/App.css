@@ -1,16 +1,26 @@
 .App {
   text-align: center;
+  width: 200px;
+  margin: 0 auto;
 }
 
-ul {
+.title {
+  background-color: rgb(0, 12, 124);
+  color: white;
+  padding: 2px;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   list-style: none;
-  padding: 0;
+  padding: 4px;
+  border: 1px solid;
+  box-shadow: 2px 4px;
 }
 
-.tasks > span {
-  margin-left: 10px;
-}
 
-.tasks > span:hover {
+.task-delete {
   cursor: pointer;
 }

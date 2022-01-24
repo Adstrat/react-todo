@@ -33,7 +33,7 @@ export default function App() {
 
   return (
     <main className="App">
-      <h1>Tasks</h1>
+      <h1 className="title">Tasks</h1>
       <Form
         handleAdd={handleAdd}
         inputValue={inputValue}
